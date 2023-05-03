@@ -9,6 +9,7 @@ public class Grade {
 	public double kor;
 	public double eng;
 	public double math;
+	public int digit;
 	
 	public Grade() {
 			
@@ -18,7 +19,7 @@ public class Grade {
 		this.eng = eng;
 		this.math = math;
 	}
-	public double average(int digit) {
+	public double average() {
 //		double num = 1;
 //		for(int i=0;i<digit;i++ ) {
 //			num=num*10;
