@@ -5,6 +5,7 @@ public class PhoneTest {
 		Gallaxy gallaxy22 = new Gallaxy();
 		gallaxy22.sendCall();
 		gallaxy22.receiveCall();
+		gallaxy22.sendSMS();
 		gallaxy22.samsungPay();
 		
 		Iphone iphone10  = new Iphone();
