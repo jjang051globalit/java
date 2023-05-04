@@ -1,6 +1,7 @@
 package quiz;
 
 import java.util.Scanner;
+import java.util.StringTokenizer;
 
 public class HowManyWord {
 	public static void main(String[] args) {
@@ -14,6 +15,8 @@ public class HowManyWord {
 			}
 			// 갯수 세기....
 			// 여기다가 출력
+			StringTokenizer st = new StringTokenizer(str," ");
+			System.out.println("단어의 갯수는 "+st.countTokens());
 		}
 	}
 }
