@@ -8,6 +8,7 @@ public class WonToDollar extends Converter {
 	
 	@Override
 	public double convert(double src) {
+		System.out.println("super ratio==="+super.ratio);
 		return src/ratio;
 	}
 

@@ -8,7 +8,7 @@ public class WonToEuro extends Converter {
 	
 	@Override
 	public double convert(double src) {
-		return src/ratio;
+		return (double)(Math.round(src/ratio*100))/100;
 	}
 
 	@Override

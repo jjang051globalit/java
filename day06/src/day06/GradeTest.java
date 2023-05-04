@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class GradeTest {
 	public static void main(String[] args) {
-		Grade myGrade = new Grade(100,88,99);
+		Grade myGrade = new Grade(100,86,99);
 		double avg = myGrade.average();
-		
-		Lotto lotto = new Lotto();
-		lotto.howMany(5);
+		System.out.println(avg);
+		//Lotto lotto = new Lotto();
+		//lotto.howMany(5);
 		
 		
 		
