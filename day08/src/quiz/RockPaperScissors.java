@@ -46,13 +46,13 @@ public class RockPaperScissors {
 			if (playerChoice == computerChoice) {
 				System.out.println("비겼음");
 			} else if (playerChoice == 1 && computerChoice == 3) {
-				System.out.println("이겼음");
+				System.out.println(me.getName() +"이겼음");
 			} else if (playerChoice == 2 && computerChoice == 1) {
-				System.out.println("이겼음");
+				System.out.println(me.getName() +"이겼음");
 			} else if (playerChoice == 3 && computerChoice == 2) {
-				System.out.println("이겼음");
+				System.out.println(me.getName() +"이겼음");
 			} else {
-				System.out.println("졌음");
+				System.out.println(computer.getName() +"이겼음");
 			}
 		}
 	}
