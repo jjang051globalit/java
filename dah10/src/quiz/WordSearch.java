@@ -19,8 +19,8 @@ public class WordSearch {
 			BufferedReader wordReader = new BufferedReader(fileReader);
 			while(true) {
 				String line = wordReader.readLine();
-				wordList.add(line);
 				if(line==null) break;
+				wordList.add(line);
 			}
 			wordReader.close();
 			// 입력 끝
@@ -31,6 +31,7 @@ public class WordSearch {
 				if(searchWord.equals("그만")) break;
 				for(int i=0;i<wordList.size();i++) {
 					String word = wordList.get(i);
+					if(word.length()<searchWord.length()) continue;
 					String frontWord = word.substring(0,searchWord.length());
 					if(searchWord.equals(frontWord)) {
 						System.out.println(word);
